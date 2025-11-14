@@ -1,1 +1,169 @@
-vanakam da mapla
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dharnish R Portfolio</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #0d0221, #240046, #3c096c);
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 100%;
+        max-width: 1100px;
+        gap: 30px;
+    }
+
+    .left-panel, .right-panel {
+        background: rgba(255,255,255,0.05);
+        padding: 25px;
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+    }
+
+    .left-panel img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    h2.section-title {
+        margin-top: 25px;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background: linear-gradient(45deg, #ff00ea, #00eaff);
+        padding: 8px 12px;
+        border-radius: 8px;
+        display: inline-block;
+    }
+
+    .contact div {
+        margin: 10px 0;
+        font-size: 15px;
+    }
+
+    .education, .experience, .skills {
+        margin-top: 20px;
+    }
+
+    .skill-dots {
+        display: flex;
+        gap: 6px;
+        margin: 5px 0 15px;
+    }
+
+    .dot {
+        width: 12px;
+        height: 12px;
+        background: #ff00ea;
+        border-radius: 50%;
+    }
+
+    .right-panel h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .about-text {
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 1.7;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    ul {
+        margin-top: 10px;
+        line-height: 1.8;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT SECTION -->
+    <div class="left-panel">
+
+        <img src="your-photo.jpg" alt="Profile Photo">
+
+        <h2 class="section-title">Contact Person</h2>
+        <div class="contact">
+            <div>📞 9361179274</div>
+            <div>📧 Dharnish1234@gmail.com</div>
+            <div>📍 Coimbatore</div>
+        </div>
+
+        <h2 class="section-title">Education</h2>
+        <div class="education">
+            <p><strong>(2018–2023)</strong><br>R.V.B. Matric  Higher Secondary School</p>
+
+            <p><strong>(2023–2027)</strong><br>
+                Coimbatore Institute of Engineering & Technology<br>
+                Bachelor of Information Technology
+            </p>
+        </div>
+
+    </div>
+
+    <!-- RIGHT SECTION -->
+    <div class="right-panel">
+
+        <h1>DHARNISH. R</h1>
+
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            A passionate and dedicated Information Technology student with a strong interest 
+            in web development, UI/UX design.
+        </p>
+
+        <h2 class="section-title">Experience</h2>
+        <div class="experience">
+            <p><strong>Studio Showde (2020–2022)</strong></p>
+            <ul>
+                <li>Created more than 100 graphic designs for major companies.</li>
+                <li>Completed complex design and development tasks.</li>
+                <li>Integrated testimonials & social media feed for real-time engagement.</li>
+            </ul>
+        </div>
+
+        <h2 class="section-title">Skills</h2>
+        <div class="skills">
+            <p>Web Design</p>
+            <div class="skill-dots">
+                <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            </div>
+
+            <p>Editing</p>
+            <div class="skill-dots">
+                <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            </div>
+
+            <p>SEO</p>
+            <div class="skill-dots">
+                <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            </div>
+
+            <p>Marketing</p>
+            <div class="skill-dots">
+                <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
